@@ -69,13 +69,13 @@ export const PopupComponent = () => {
                         </span>
                         <span id="disableSkipping" className={extensionEnabled ? " hidden" : ""}>
                             <FormattedText
-                                langKey="disable"
+                                langKey="Disabled"
                                 titleFormatting={titleFormatting}
                             />
                         </span>
                         <span id="enableSkipping" className={!extensionEnabled ? " hidden" : ""}>
                             <FormattedText
-                                langKey="Enable"
+                                langKey="Enabled"
                                 titleFormatting={titleFormatting}
                             />
                         </span>
